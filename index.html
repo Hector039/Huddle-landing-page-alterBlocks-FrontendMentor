@@ -15,9 +15,9 @@
 
 <body>
 
-  <section class="bg-section">
+  <section role="banner" class="bg-section">
     <header>
-      <img src="./images/logo.svg" alt="Huddle Logo" class="header-logo">
+      <img src="./images/logo.svg" alt="Huddle Logo" role="banner" class="header-logo">
       <button class="header-button">Try It Free</button>
     </header>
 
@@ -36,7 +36,7 @@
       </section>
   </section>
 
-  <section class="section-two">
+  <section role="main" class="section-two">
     <img src="./images/illustration-grow-together.svg" alt="People chatting" class="section-two-image">
 
     <div class="section-two-main">
@@ -48,7 +48,7 @@
     </div>
   </section>
 
-  <section class="section-tree">
+  <section role="main" class="section-tree">
     <img src="./images/illustration-flowing-conversation.svg" alt="People having a conversation"
       class="section-tree-image">
     <div class="section-tree-main">
@@ -59,7 +59,7 @@
     </div>
   </section>
 
-  <section class="section-four">
+  <section role="main" class="section-four">
     <img src="./images/illustration-your-users.svg" alt="People having a meeting" class="section-four-image">
     <div class="section-four-main">
       <h2 class="section-four-title">Your Users</h2>
@@ -69,15 +69,15 @@
     </div>
   </section>
 
-  <section class="section-five">
-    <h2 class="section-five-title">Ready To Build Your Community?</h2>
+  <section role="main" class="section-five">
+    <h2 role="main" class="section-five-title">Ready To Build Your Community?</h2>
 
     <button class="section-five-button">Get Started For Free</button>
   </section>
 
   </main>
 
-  <footer>
+  <footer role="contentinfo">
 
     <section class="footer-main">
       <img src="./images/logo.svg" alt="Huddle Logo" class="footer-logo">
@@ -112,11 +112,11 @@
 
     <div class="social">
       <div>
-        <span><a href="https://www.facebook.com" target="_blank"><iconify-icon
+        <span><a href="https://www.facebook.com" aria-label="Facebook login page" target="_blank"><iconify-icon
               icon="jam:facebook"></iconify-icon></a></span>
-        <span><a href="https://www.twitter.com" target="_blank"><iconify-icon
+        <span><a href="https://www.twitter.com" aria-label="Twitter login page" target="_blank"><iconify-icon
               icon="fe:twitter"></a></iconify-icon></a></span>
-        <span><a href="https://www.instagram.com" target="_blank"><iconify-icon
+        <span><a href="https://www.instagram.com" aria-label="Instagram login page" target="_blank"><iconify-icon
               icon="radix-icons:instagram-logo"></iconify-icon></a></span>
       </div>
       <p class="social-text">&copy; Copyright 2018 Huddle. All rights reserved.</p>
@@ -124,7 +124,7 @@
 
   </footer>
 
-  <div class="attribution">
+  <div role="contentinfo" class="attribution">
     <p>
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
     <p>Coded by <a href="https://www.frontendmentor.io/profile/Hector039" target="_blank">Hector Mandrile</a>.</p>
